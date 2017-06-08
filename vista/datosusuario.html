@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Datos Usuarios | Gestor de Archivos</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/nuevousuario.css">
+    <script src="https://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+  </head>
+
+  <body>
+   <form class="form_registro" method="post" enctype="multipart/form-data" class="form">
+      <h2>Registrar Nuevo Usuario</h2>
+      <div class="contenedor">
+        <p>NOMBRE</p>
+        <input type="text" id="nombre" name="nombre" placeholder="&#128219; Nombre" value="ka">
+        <p>APELLIDO</p>
+        <input type="text" id="apellido" name="apellido" placeholder="&#128219; Apellido" value="va">
+        <p>TELEFONO</p>
+        <input type="text" id="telefono" name="telefono" placeholder=" &#128241; Telefono"  value="314">
+        <p>EMAIL</p>
+        <input type="email" id="email" name="email" placeholder="&#128231; E-mail"  value="nolberto.valencia@ucp.edu.co">
+        <p>Usuario Quien lo Registro</p>
+        <input type="text" id="registrador" name="registrador" placeholder="&#128219; Usuario Registrador" value="1225000">
+        <p>Dependencia</p>
+        <input type="text" name="dependencia" id="Dependencia" value="bodega">
+        <img height="50px" src="../imagenes/img1.jpeg">
+        <input type="file" name="imagen" class="btn">
+        <input type="submit" value="MODIFICAR" class="btn">
+      </div>
+      <a href="usuarios.html">CANCELAR</a>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.backstretch.min.js"></script>
+    <script>
+        jQuery.backstretch([
+              "../imagenes/img1.jpg"
+            , "../imagenes/img2.jpg"
+            , "./iagenes/img3.jpg"
+            , "../imagenes/img4.jpg"
+            , "../imagenes/img5.jpg"
+            ], {duration: 4000, fade: 1000}
+        );
+    </script>
+  </body>
+</html>

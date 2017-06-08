@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Nuevo Usuario | Gestor de Archivos</title><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/nuevousuario.js">
+
+    </script>
+    <style>
+      body{
+        padding-top: 100px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link rel="stylesheet" href="../css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="../css/nuevousuario.css">
+    <script src="../js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <form class="form_registro" method="post" enctype="multipart/form-data" class="form">
+      <h2>Registrar Nuevo Usuario</h2>
+      <div class="contenedor">
+        <input type="text" id="cedula" name="cedula" placeholder="&#128462; Cedula">
+        <input type="text" id="nombre" name="nombre" placeholder="&#128219; Nombre">
+        <input type="text" id="apellido" name="apellido" placeholder="&#128219; Apellido">
+        <input type="password" id="password" name="password" placeholder="&#128273; Contraseña">
+        <input type="password" id="verificar" placeholder="&#128273; Repetir Contraseña">
+        <input type="text" id="telefono" name="telefono" placeholder=" &#128241; Telefono">
+        <input type="email" id="email" name="email" placeholder="&#128231; E-mail">
+        <input type="text" id="registrador" name="registrador" placeholder="&#128219; Usuario Registrador">
+        <select name="dependencia" id="dependencia">
+          <option value="3">Bodega</option>
+          <option value="2">Financiera</option>
+          <option value="4">Recursos Humanos</option>
+          <option value="1">Sistema</option>
+        </select>
+        <input type="file" name="imagen" class="btn">
+        <input type="submit" value="Registrar" class="btn">
+      </div>
+    </form>
+
+    <script src="../js/vendor/bootstrap.min.js"></script>
+    <script src="../js/jquery.backstretch.min.js"></script>
+    <script>
+        jQuery.backstretch([
+              "../imagenes/img1.jpg"
+            , "../imagenes/img2.jpg"
+            , "./iagenes/img3.jpg"
+            , "../imagenes/img4.jpg"
+            , "../imagenes/img5.jpg"
+            ], {duration: 4000, fade: 1000}
+        );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Documentos | Gestor de Archivos</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toogle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">Gestor de Archivos</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="documentos.html">Documentos</a></li>
+            <li><a href="historialdocumento.html">Historial Documentos</a></li>
+            <li><a href="historialusuario.html">Historial Usuario</a></li>
+            <li><a href="historialrespuesta.html">Historial Respuesta</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+            <li><a href="respuesta.html">Respuestas</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <section id="main">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Documenttos</h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-12">
+                <input type="text" class="form-control" placeholder="Filtrar Documento">
+              </div>
+            </div>
+            <br>
+            <table class="table table-striped table-hover">
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.backstretch.min.js"></script>
+    <script>
+        jQuery.backstretch([
+              "../imagenes/img1.jpg"
+            , "../imagenes/img2.jpg"
+            , "./iagenes/img3.jpg"
+            , "../imagenes/img4.jpg"
+            , "../imagenes/img5.jpg"
+            ], {duration: 4000, fade: 1000}
+        );
+    </script>
+  </body>
+</html>
